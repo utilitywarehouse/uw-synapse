@@ -1,4 +1,4 @@
-FROM matrixdotorg/synapse:v1.23.0
+FROM matrixdotorg/synapse:v1.25.0
 
 RUN apt update &&\
   apt install -y git &&\
