@@ -1,4 +1,4 @@
-FROM matrixdotorg/synapse:v1.25.0
+FROM matrixdotorg/synapse:v1.31.0
 
 RUN apt update &&\
   apt install -y git cron rsyslog &&\
